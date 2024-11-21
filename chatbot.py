@@ -5,7 +5,7 @@ st.set_page_config(page_title= "Chat IA", page_icon= "©")
 st.title("Chat IA-Talento Tech")
 accion = st.text_input("¿Cuál es tu nombre?")
 if st.button("Saludar"):
-    st.write(f"Hola, {accion}!, que bueno verte!")
+    st.write(f"Hola, {accion}, que bueno verte!")
 
 MODELO =['llama3-8b-8192', 'llama3-70b-8192', 'mixtral-8x7b-32768']
 
